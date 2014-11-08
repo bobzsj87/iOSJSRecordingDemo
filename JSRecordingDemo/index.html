@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+            <style>
+                .btn-row{
+                    padding-top: 30px;
+                }
+            </style>
+        <script src="iosrecorder.js"></script>
+        <script>
+            
+        </script>
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <div class="row btn-row">
+                <div class="col-xs-12">
+                    <button class="btn btn-primary btn-block" onclick="javascript:iosrecorder.record()">Record</button>
+                </div>
+            </div>
+            <div class="row btn-row">
+                <div class="col-xs-12">
+                    <button class="btn btn-warning btn-block" onclick="javascript:iosrecorder.stop()">Stop</button>
+                </div>
+            </div>
+            <div class="row btn-row">
+                <div class="col-xs-12">
+                    <button class="btn btn-primary btn-block" onclick="javascript:iosrecorder.play()">Play</button>
+                </div>
+            </div>
+            <div class="row btn-row">
+                <div class="col-xs-12">
+                    <button class="btn btn-primary btn-block" onclick="javascript:iosrecorder.upload()">Upload</button>
+                </div>
+            </div>
+            
+            <div class="row btn-row">
+                <div id="display" class="col-xs-12">
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
